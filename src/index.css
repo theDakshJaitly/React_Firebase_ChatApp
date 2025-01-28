@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color:aliceblue;
+}
+
+
+body{
+  background-image: url("C:\Users\daksh\Desktop\react-firebase-chat-starter\public\DP-13139-001.jpg");
+  background: scroll center url("C:\Users\daksh\Desktop\react-firebase-chat-starter\public\DP-13139-001.jpg");
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.container{
+  width: 90vw;
+  align-self: center;
+  padding: 10px;
+  background: linear-gradient(135deg, rgba(48, 5, 5, 0.1) 0%, rgba(255, 255, 255, 0) 100%);
+  border-radius: 20px;
+  box-shadow: 0 8px 16px rgba(255, 254, 254, 0.842);
+  height: 90vh;
+  opacity: 0.94;
+  backdrop-filter: blur(50px) saturate(100%);
+  -webkit-backdrop-filter: blur(50px);
+  
+  box-shadow: 1px 5px 72px rgba(128, 124, 121, 0.938);
+  display: flex;
+  
+  
+}

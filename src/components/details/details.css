@@ -1,0 +1,91 @@
+.detail{
+    flex: 1;
+
+    .user{
+        padding: 30px 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        border-bottom: 1px solid #e0e0e0;
+
+        img{
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+        }
+    }
+
+    .info{
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+
+        .option{
+
+            .title{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+
+                img{
+                    width: 30px;
+                    height: 30px;
+                    background-color: rgba(17, 25, 47, 0.8);
+                    padding: 10px;
+                    border-radius: 50%;
+                    cursor: pointer; 
+                }
+            }
+
+            .photos{
+                display: flex;
+                gap: 20px;
+                flex-direction: column;
+
+                .photoItem{
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+
+                    .photoDetail{
+                        display: flex;
+                        
+                        align-items: center;
+                        gap: 20px;
+                        
+                        img{
+                            width: 40px;
+                            height: 40px;
+                            border-radius: 5px;
+                            object-fit: cover;
+                        }
+                    }
+
+                }
+
+                
+            }
+        }
+
+        button{
+            padding: 10px 20px;
+            background-color: #141d9b;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .Block{
+            padding: 10px 20px;
+            background-color: #a1210b;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+    }
+    
+}
